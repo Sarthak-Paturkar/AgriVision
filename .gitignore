@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+.env.*
+
+# Dataset
+data/plant_disease/
+
+# Training feature arrays
+data/features/X_train.npy
+data/features/X_val.npy
+data/features/X_test.npy
+data/features/y_train.npy
+data/features/y_val.npy
+data/features/y_test.npy
+
+# Unused ML models
+data/ml_models/random_forest.joblib
+data/ml_models/logistic_regression.joblib
+data/ml_models/svm.joblib
+
+# Evaluation artifacts
+data/ml_models/final_confusion_matrix.csv
+data/ml_models/final_per_class_results.csv
+data/ml_models/final_test_metrics.csv
+data/ml_models/model_comparison.csv
+
+# Local test image
+test_leaf.png
